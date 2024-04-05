@@ -9,6 +9,6 @@ void ft_is_negative(int n) {
     else ft_putchar('P');
 }
 
-void main() {
-    ft_is_negative(-1);
-}
+// void main() {
+//     ft_is_negative(-1);
+// }
