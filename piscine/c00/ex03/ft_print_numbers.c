@@ -4,14 +4,15 @@ void ft_putchar(char c) {
     write(1, &c, 1);
 }
 
-void ft_print_alphabet(void){
-    int i = 97;
-    for(i; i<= 122; i ++) {
+void ft_print_numbers(void) {
+    int i = 48;
+    for(i; i<= 57; i ++) {
         ft_putchar(i);
     }
 }
 
-// int main(){
-//     ft_print_alphabet();
+// int main() {
+//     ft_print_numbers();
 //     ft_putchar('\n');
+//     return 0;
 // }
