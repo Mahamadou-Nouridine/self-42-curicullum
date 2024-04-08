@@ -6,8 +6,9 @@ void ft_putchar(char c) {
 
 void ft_print_alphabet(void){
     int i = 97;
-    for(i; i<= 122; i ++) {
+    while( i<= 122) {
         ft_putchar(i);
+        i ++;
     }
 }
 

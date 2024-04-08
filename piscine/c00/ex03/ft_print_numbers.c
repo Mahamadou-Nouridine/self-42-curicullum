@@ -6,8 +6,9 @@ void ft_putchar(char c) {
 
 void ft_print_numbers(void) {
     int i = 48;
-    for(i; i<= 57; i ++) {
+    while(i<= 57) {
         ft_putchar(i);
+        i ++;
     }
 }
 
